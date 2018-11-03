@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!--Import Google Icon Font-->
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+    <title>Student View</title>
+    <style>
+           img{
+          height:200px;
+        }
+    </style>
+  </head>
+  <body class="blue">
+        <nav class="nav-wrapper indigo accent-3">
+          <div class="container">
+            <a href="" class = "brand-logo">2017001097</a>
+            <a href="" class="sidenav-trigger" data-target="sidebar_id">
+              <i class="material-icons">menu</i>
+            </a>
+            <!--
+                for small screens the nav icon vanishes and the li's appear
+           -->
+            <ul class ="right hide-on-med-and-down">
+              <li ><a href="#" class="btn-floating blue darken-2 waves-effect"><i class="material-icons  large">person</i></a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#" class ="btn amber lighten-1 waves-effect">Login/Logout</a></li>
+            </ul>
+
+            <ul class="sidenav grey lighten-1" id ="sidebar_id">
+              <li><a href="#" class="btn small blue"><i class="center material-icons white-text">person</i></a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#" class ="btn amber lighten-1 waves-effect left">Login/Logout</a></li>
+            </ul>
+          </div>
+        </nav>
+
+          <div class="container">
+            <h3>Welcome Farazuddin</h3>
+              <div class="row">
+                
+                <a href="">
+                  <div class="col s12 l4">
+                    <div class="card z-depth-4 grey lighten-1">
+                      <div class="card-image">
+                        <img src="Student_View_images/courses.jpg" alt="">
+                        <a href="" class="halfway-fab btn-floating red darken-1 pulse ">
+                            <i class="material-icons ">format_align_center</i>
+                        </a>
+                      </div>
+                        <div class="card-content">
+                          <p class="center">
+                                <h5 class="">My Courses</h5>
+                          </p>
+                        </div>
+                  </div>
+                  </div>
+                </a>
+
+                
+                <a href="">
+                  <div class="col s12 l4">
+                    <div class="card z-depth-4 grey lighten-1">
+                      <div class="card-image">
+                        <img src="Student_View_images/gradesheet.jpg" alt="">
+                        <a href="" class="halfway-fab btn-floating red darken-1 pulse ">
+                            <i class="material-icons ">format_align_center</i>
+                        </a>
+                      </div>
+                        <div class="card-content">
+                          <p class="center">
+                                <h5 class="">Grade Sheet</h5>
+                          </p>
+                        </div>
+                  </div>
+                  </div>
+                </a>
+
+
+
+              </div>
+          </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      })
+      </script>
+  </body>
+</html>

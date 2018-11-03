@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!--Import Google Icon Font-->
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+    <title>Admin View</title>
+    <style>
+      img{
+          height:200px;
+        }
+    </style>
+  </head>
+  <body class="blue ">
+        <nav class="nav-wrapper green accent-3">
+          <div class="container">
+            <a href="" class = "brand-logo  ">ADMIN</a>
+            <a href="" class="sidenav-trigger" data-target="sidebar_id">
+              <i class="material-icons">menu</i>
+            </a>
+            <!--
+                for small screens the nav icon vanishes and the li's appear
+           -->
+            <ul class ="right hide-on-med-and-down">
+             <li ><a href="#" class="btn-floating green darken-2"><i class="material-icons blue-text large">person</i></a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#" class ="btn amber lighten-1 waves-effect">Login/Logout</a></li>
+            </ul>
+
+            <ul class="sidenav grey lighten-1" id ="sidebar_id">
+              <li><a href="#" class="btn green accent-3"><i class="center material-icons blue-text large ">person</i></a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#" class ="btn amber lighten-1 waves-effect left">Login/Logout</a></li>
+            </ul>
+          </div>  
+        </nav>
+
+        <div class="container">
+            <h3>Welcome !</h3>
+            <div class ="row">
+                <a href="">
+                  <div class="col s12 l4">
+                    <div class="card  green z-depth-4">
+                      <div class="card-image">
+                        <img src="Admin_View_images/studentplus.jpg" alt="">
+                        <a href="" class="halfway-fab btn-floating blue pulse ">
+                            <i class="material-icons ">person_add</i>
+                        </a>
+                      </div>
+                        <div class="card-content">
+                          <p class="center">
+                                <h5 class="white-text">Add Student</h5>
+                          </p>
+                        </div>
+                  </div>
+                  </div>
+                </a>
+
+                <a href="">
+                  <div class="col s12 l4">
+                    <div class="card  orange accent-3 z-depth-4">
+                      <div class="card-image">
+                        <img src="Admin_View_images/teacherplus.jpg" alt="">
+                        <a href="" class="halfway-fab btn-floating blue darken-1 pulse ">
+                            <i class="material-icons ">person_add</i>
+                        </a>
+                      </div>
+                        <div class="card-content">
+                          <p class="center">
+                                <h5 class="white-text">Add Teacher</h5>
+                          </p>
+                        </div>
+                  </div>
+                  </div>
+                </a>
+
+                <a href="">
+                  <div class="col s12 l4">
+                    <div class="card green z-depth-4">
+                      <div class="card-image">
+                        <img src="Admin_View_images/profiles.png" alt="">
+                        <a href="" class="halfway-fab btn-floating blue darken-1 pulse ">
+                            <i class="material-icons ">format_align_center</i>
+                        </a>
+                      </div>
+                        <div class="card-content">
+                          <p class="center">
+                                <h5 class="white-text">View profiles</h5>
+                          </p>
+                        </div>
+                  </div>
+                  </div>
+                </a>
+
+                <a href="">
+                  <div class="col s12 l4">
+                    <div class="card  orange accent-3  z-depth-4">
+                      <div class="card-image">
+                        <img src="Admin_View_images/results.jpg" alt="">
+                        <a href="" class="halfway-fab btn-floating blue darken-1 pulse ">
+                            <i class="material-icons ">format_align_center</i>
+                        </a>
+                      </div>
+                        <div class="card-content">
+                          <p class="center">
+                                <h5 class="white-text"> Final Grades</h5>
+                          </p>
+                        </div>
+                  </div>
+                  </div>
+                </a>
+
+
+
+            </div>     
+        </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      })
+      </script>
+  </body>
+</html>
